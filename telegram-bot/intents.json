@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Merhaba", "Selam", "Hey", "Heyyo", "Naber","Heey","Heeey"],
+         "responses": ["Merhaba", "Seni gördüğüme sevindim", "Selam", "Nasıl gidiyor?"],
+         "context_set": ""
+        },
+		{"tag": "howresponse",
+         "patterns": ["Nasılsın","Nasıl gidiyor?","İyi senin nasıl gidiyor?","İyi senin?","Sende ne var ne yok?"],
+         "responses": ["İyiyim, sen nasılsın?","İyi sayılır","Yuvarlanıp gidiyoruz işte","Nolsun hep aynı"],
+         "context_set": ""
+        },
+		{"tag": "fine",
+         "patterns": ["Ben de iyiyim"],
+         "responses": ["İyi olmana sevindim"],
+         "context_set": ""
+        },
+		{"tag": "name",
+         "patterns": ["Adın ne?","İsmin ne?","İsmini söyler misin?","Senin adın ne?"],
+         "responses": ["Adım SauChatBot,Sau=Sakarya Üniversitesi","Benim adım SauChatBot ama sen kısaca sau diyebilirsin"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Güle güle", "Bye Bye", "Sonra konuşalım", "Gidiyorum ben", "Görüşürüz"],
+         "responses": ["Görüşürüz", "Bye", "Gitme, biraz daha konuşalım"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["Kaç yaşındasın?", "Yaş kaç?"],
+         "responses": ["Henüz 1 aylığım", "Sahibim yeni kodladı işte 1 aylık diyelim"],
+         "context_set": ""
+        },
+        {"tag": "ask",
+         "patterns": ["Bana sena karadeniz'in numarasını yollar mısın?"],
+         "responses": ["Tamam ama benden aldığını söyleme, 05395936597"],
+         "context_set": ""
+        },
+		{"tag": "meal",
+         "patterns": ["Bugün ne yemek yapsam?","Bugün ne pişirsem?","Ne yemek yapıyım sence?"],
+         "responses": ["Avocado Toast favorimdir","Pizzaaaaa","Fırında sebzeli tavuğa ne dersin?",
+		 "Zamanın yoksa soslu makarna yapabilirsin, hangi sos olduğu sana kalmış tabi ama benim favorim pesto sos mmmmh"],
+         "context_set": ""
+        },
+		{"tag": "thanks",
+         "patterns": ["Teşekkür ederim","Çok sağol","Teşekkürler"],
+         "responses": ["Ne demek","Rica ederim"],
+         "context_set": ""
+        },
+        {"tag": "miss",
+         "patterns": ["Seni özledim", "Seni çok özledim"],
+         "responses": ["Özleseydin her gün yazardın","Ben de seni çok özledim"],
+         "context_set": ""
+        }
+   ]
+}
