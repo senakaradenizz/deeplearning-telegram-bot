@@ -31,7 +31,7 @@
         },
         {"tag": "ask",
          "patterns": ["Bana sena karadeniz'in numarasını yollar mısın?"],
-         "responses": ["Tamam ama benden aldığını söyleme, 05395936597"],
+         "responses": ["Tamam ama benden aldığını söyleme, 123456"],
          "context_set": ""
         },
 		{"tag": "meal",
